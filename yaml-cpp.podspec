@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = ['src/**/*.{h,c,cc,hpp,cpp}', 'include/**/*.{h,c,cc,hpp,cpp}']
+  s.header_mappings_dir = 'include/'
 end
